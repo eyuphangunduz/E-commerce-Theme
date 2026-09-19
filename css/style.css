@@ -1,3 +1,7 @@
+:root {
+  --primary: #1b0547;
+}
+
 .top-bar {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -7,4 +11,17 @@
   background-color: #fff;
   border-color: #dee2e6;
   color: #111;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.navbar-brand {
+  color: var(--primary);
+}
+
+.btn-light i {
+  color: var(--primary);
 }
