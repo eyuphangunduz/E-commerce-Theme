@@ -94,6 +94,10 @@
   color: #fff;
 }
 
+.checked {
+  color: orange;
+}
+
 /* gallery */
 .gallery-wrap .img-big-wrap {
   width: 100%;
