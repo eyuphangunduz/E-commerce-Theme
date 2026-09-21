@@ -127,6 +127,10 @@
   overflow: hidden;
 }
 
+li h6 {
+  color: var(--primary);
+}
+
 @media (max-width: 578px) {
   .img-wrap img {
     height: 200px;
